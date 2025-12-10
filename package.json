@@ -5,6 +5,9 @@
   "type": "module",
   "main": "dist/snowrail-mcp.js",
   "author": "<Wolfcito>",
+  "bin": {
+    "snowrail-mcp": "dist/snowrail-mcp.js"
+  },
   "scripts": {
     "dev": "tsx src/snowrail-mcp.ts",
     "build": "tsc",
